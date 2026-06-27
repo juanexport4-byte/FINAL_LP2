@@ -17,7 +17,7 @@ El sistema recopila información procesada por lotes (batch) e integra dos fuent
 1. fuente 1 :
 2. fuente 2 :
 
-Ambas fuentes unifican los resultados en un formato común guardado en archivos **JSON** independientes (`datos_bluesky.json` y `datos_meneame.json`).
+Ambas fuentes unifican los resultados en un formato común guardado en archivos **JSON** independientes (`datos_bluesky.json` y `.json`).
 
 ---
 
