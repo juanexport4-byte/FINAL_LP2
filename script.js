@@ -125,3 +125,64 @@ function construirGraficoGeneral() {
     }
   })
 }
+
+// ── Tabla con paginación ──────────────────────
+function renderTabla() {
+  const cuerpo = document.getElementById('cuerpo-tabla')
+  cuerpo.innerHTML = ''
+
+  const visibles = filasTabla.slice(0, filasMostradas)
+  visibles.forEach(fila => {
+    const tr = document.createElement('tr')
+    tr.innerHTML = `
+      <td>${fila.fecha}</td>
+      <td>${fila.estafa}</td>
+      <td>${fila.fuente}</td>
+      <td><a href="${fila.url}" target="_blank">${fila.url}</a></td>
+    `
+    cuerpo.appendChild(tr)
+  })
+
+ // Fila de controles al final
+  const hayMas = filasTabla.length > filasMostradas
+  const trControles = document.createElement('tr')
+  trControles.id = 'fila-controles'
+  trControles.innerHTML = `
+    <td colspan="2" style="padding:0">
+      <button class="btn-tabla ${hayMas ? '' : 'btn-tabla--disabled'}"
+              onclick="mostrarMas()"
+              ${hayMas ? '' : 'disabled'}>
+        ${hayMas ? `▼ Mostrar más (${filasTabla.length - filasMostradas} restantes)` : '✓ Todos los datos visibles'}
+      </button>
+    </td>
+    <td colspan="2" style="padding:0">
+      <button class="btn-tabla btn-tabla--csv" onclick="descargarCSV()">
+        ↓ Descargar CSV
+      </button>
+    </td>
+  `
+  cuerpo.appendChild(trControles)
+}
+
+function mostrarMas() {
+  filasMostradas += 20
+  renderTabla()
+}
+
+// ── Descargar CSV ─────────────────────────────
+function descargarCSV() {
+  const cabecera = ['Fecha', 'Tipo de estafa', 'Fuente', 'URL']
+  const filas = filasTabla.map(f =>
+    [f.fecha, f.estafa, f.fuente, f.url]
+      .map(v => `"${String(v).replace(/"/g, '""')}"`)
+      .join(',')
+  )
+  const csv = [cabecera.join(','), ...filas].join('\n')
+  const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' })
+  const url  = URL.createObjectURL(blob)
+  const a    = document.createElement('a')
+  a.href     = url
+  a.download = `monitor_desinformacion_${new Date().toISOString().slice(0,10)}.csv`
+  a.click()
+  URL.revokeObjectURL(url)
+}
