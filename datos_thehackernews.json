@@ -1,0 +1,182 @@
+[
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Dec 24, 2025\nArtificial Intelligence / Cryptocurrency",
+        "tipo_estafa": "Criptomonedas",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "SEC Files Charges Over $14 Million Crypto Scam Using Fake AI-Themed Investment Tips - The U.S. Securities and Exchange Commission (SEC) has filed charges  against multiple companies for their alleged involvement in an elaborate cryptocurrency scam that swindled more than $14 million from retail investors.  The complaint charged crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co., Ltd., and Cirkor Inc., as well as investment clubs AI Wealth Inc., Lane Wealth Inc., AI Investment Education Foundation (AIIEF) Ltd., and Zenith Asset Tech Foundation, in connection with the operation.  The SEC said the scam unfolded as a multi-step fraud that enticed unsuspecting users with ads on social media and built trust with them through group chats in which the scammers posed as financial professionals and promised returns from artificial intelligence (AI)-generated investment tips.  The fraudsters then convinced the victims to invest their funds into fake cryptocurrency asset trading platforms, only to defraud them later.   According to the SEC, AI Weal...",
+        "url": "https://thehackernews.com/2025/12/sec-files-charges-over-14-million.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Nov 14, 2024\nArtificial Intelligence / Cryptocurrency",
+        "tipo_estafa": "Criptomonedas",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Google Warns of Rising Cloaking Scams, AI-Driven Fraud, and Crypto Schemes - Google has revealed that bad actors are leveraging techniques like landing page cloaking to conduct scams by impersonating legitimate sites.  \"Cloaking is specifically designed to prevent moderation systems and teams from reviewing policy-violating content which enables them to deploy the scam directly to users,\" Laurie Richardson, VP and Head of Trust and Safety at Google, said .  \"The landing pages often mimic well-known sites and create a sense of urgency to manipulate users into purchasing counterfeit products or unrealistic products.\"  Cloaking refers to the practice  of serving different content to search engines like Google and users with the ultimate goal of manipulating search rankings and deceiving users.  The tech giant said it has also observed a cloaking trend wherein users clicking on ads are redirected via tracking templates to scareware sites that claim their devices are compromised with malware and lead them to other phony customer support sites, w...",
+        "url": "https://thehackernews.com/2024/11/google-warns-of-rising-cloaking-scams.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Aug 08, 2025\nCryptocurrency / Browser Security",
+        "tipo_estafa": "Criptomonedas",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "GreedyBear Steals $1M in Crypto Using 150+ Malicious Firefox Wallet Extensions - A newly discovered campaign dubbed GreedyBear  has leveraged over 150 malicious extensions to the Firefox marketplace that are designed to impersonate popular cryptocurrency wallets and steal more than $1 million in digital assets.  The published browser add-ons masquerade as MetaMask, TronLink, Exodus, and Rabby Wallet, among others, Koi Security researcher Tuval Admoni said.  What makes the activity notable is the threat actor's use of a technique that the cybersecurity company called Extension Hollowing to bypass safeguards put in place by Mozilla and exploit user trust. It's worth noting that some aspects of the campaign were first documented  by security researcher Lukasz Olejnik last week.  \"Rather than trying to sneak malicious extensions past initial reviews, they build legitimate-seeming extension portfolios first, then weaponize them later when nobody's watching,\" Admoni said  in a report published Thursday.  To achieve this, the attackers first create ...",
+        "url": "https://thehackernews.com/2025/08/greedybear-steals-1m-in-crypto-using.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Aug 05, 2025\nMalware / Mobile Security",
+        "tipo_estafa": "Criptomonedas",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "15,000 Fake TikTok Shop Domains Deliver Malware, Steal Crypto via AI-Driven Scam Campaign - Cybersecurity researchers have lifted the veil on a widespread malicious campaign that's targeting TikTok Shop users globally with an aim to steal credentials and distribute trojanized apps.  \"Threat actors are exploiting the official in-app e-commerce platform through a dual attack strategy that combines phishing and malware to target users,\" CTM360 said . \"The core tactic involves a deceptive replica of TikTok Shop that tricks users into thinking theyʼre interacting with a legitimate affiliate or the real platform.\"  The scam campaign has been codenamed FraudOnTok  by the Bahrain-based cybersecurity company, calling out the threat actor's multi-pronged distribution strategy that involves Meta ads and artificial intelligence (AI)-generated TikTok videos that mimic influencers or official brand ambassadors.  Central to the effort is the use of lookalike domains that resemble legitimate TikTok URLs. Over 15,000 such impersonated websites have been identified...",
+        "url": "https://thehackernews.com/2025/08/15000-fake-tiktok-shop-domains-deliver.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Jun 30, 2025\nCryptocurrency / Cybercrime",
+        "tipo_estafa": "Criptomonedas",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Europol Dismantles $540 Million Cryptocurrency Fraud Network, Arrests Five Suspects - Europol on Monday announced the takedown of a cryptocurrency investment fraud ring that laundered €460 million ($540 million) from more than 5,000 victims across the world.  The international effort, codenamed Operation Borrelli, was carried out by the Spanish Guardia Civil, along with support from law enforcement authorities from Estonia, France, and the United States. Europol said the investigation into the syndicate started in 2023.  In addition, the five alleged suspects behind the cryptocurrency scam were arrested on June 25, 2025. Three of the arrests took place in the Canary Islands, while two others were apprehended from Madrid.  \"To carry out their fraudulent activities, the leaders of the criminal network allegedly used a net of associates spread around the world to raise funds through cash withdrawals, bank transfers, and crypto-transfers,\" Europol said . These types of scams often follow a pattern known as cryptocurrency confidence or romance baiting (formerly ...",
+        "url": "https://thehackernews.com/2025/06/europol-dismantles-540-million.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Sep 29, 2025\nEmail Security / Artificial Intelligence",
+        "tipo_estafa": "Phishing",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Microsoft Flags AI-Driven Phishing: LLM-Crafted SVG Files Outsmart Email Security - Microsoft is calling attention to a new phishing campaign primarily aimed at U.S.-based organizations that has likely utilized code generated using large language models (LLMs) to obfuscate payloads and evade security defenses.  \"Appearing to be aided by a large language model (LLM), the activity obfuscated its behavior within an SVG file, leveraging business terminology and a synthetic structure to disguise its malicious intent,\" the Microsoft Threat Intelligence team said  in an analysis published last week.  The activity, detected on August 28, 2025, shows how threat actors are increasingly adopting artificial intelligence (AI) tools into their workflows, often with the goal of crafting more convincing phishing lures, automating malware obfuscation, and generating code that mimics legitimate content.  In the attack chain documented by the Windows maker, bad actors have been observed leveraging an already compromised business email account to send phishing messages to stea...",
+        "url": "https://thehackernews.com/2025/09/microsoft-flags-ai-driven-phishing-llm.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Apr 17, 2025\nArtificial Intelligence / Threat Intelligence",
+        "tipo_estafa": "Phishing",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Artificial Intelligence – What's all the fuss? - Talking about AI: Definitions  Artificial Intelligence (AI) — AI refers to the simulation of human intelligence in machines, enabling them to perform tasks that typically require human intelligence, such as decision-making and problem-solving. AI is the broadest concept in this field, encompassing various technologies and methodologies, including Machine Learning (ML) and Deep Learning.  Machine Learning (ML) — ML is a subset of AI that focuses on developing algorithms and statistical models that allow machines to learn from and make predictions or decisions based on data. ML is a specific approach within AI, emphasizing data-driven learning and improvement over time.  Deep Learning (DL) — Deep Learning is a specialized subset of ML that uses neural networks with multiple layers to analyze and interpret complex data patterns. This advanced form of ML is particularly effective for tasks such as image and speech recognition, making it a crucial component of many AI applications.  Larg...",
+        "url": "https://thehackernews.com/2025/04/artificial-intelligence-whats-all-fuss.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Jul 02, 2025\nVulnerability / Cybercrime",
+        "tipo_estafa": "Phishing",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Hackers Using PDFs to Impersonate Microsoft, DocuSign, and More in Callback Phishing Campaigns - Cybersecurity researchers are calling attention to phishing campaigns that impersonate popular brands and trick targets into calling phone numbers operated by threat actors.  \"A significant portion of email threats with PDF payloads persuade victims to call adversary-controlled phone numbers, displaying another popular social engineering technique known as Telephone-Oriented Attack Delivery (TOAD), also known as callback phishing,\" Cisco Talos researcher Omid Mirzaei said  in a report shared with The Hacker News.  An analysis of phishing emails with PDF attachments between May 5 and June 5, 2025, has revealed Microsoft and Docusign to be the most impersonated brands. NortonLifeLock, PayPal, and Geek Squad are among the most impersonated brands in TOAD emails with PDF attachments.  The activity is part of wider phishing attacks that attempt to leverage the trust people have with popular brands to initiate malicious actions. These messages typically incorporate PDF attachments...",
+        "url": "https://thehackernews.com/2025/07/hackers-using-pdfs-to-impersonate.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Sep 20, 2025\nMalware / Artificial Intelligence",
+        "tipo_estafa": "Phishing",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Researchers Uncover GPT-4-Powered MalTerminal Malware Creating Ransomware, Reverse Shell - Cybersecurity researchers have discovered what they say is the earliest example known to date of a malware that bakes in Large Language Model (LLM) capabilities.  The malware has been codenamed MalTerminal  by SentinelOne SentinelLABS research team. The findings were presented at the LABScon 2025 security conference.  In a report examining the malicious use of LLMs, the cybersecurity company said AI models are being increasingly used by threat actors for operational support, as well as for embedding them into their tools – an emerging category called LLM-embedded malware that's exemplified by the appearance of LAMEHUG  (aka PROMPTSTEAL) and PromptLock .  This includes the discovery of a previously reported Windows executable called MalTerminal that uses OpenAI GPT-4 to dynamically generate ransomware code or a reverse shell. There is no evidence to suggest it was ever deployed in the wild, raising the possibility that it could also be a proof-of-concept malware or red team tool.  ...",
+        "url": "https://thehackernews.com/2025/09/researchers-uncover-gpt-4-powered.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Oct 17, 2023\nCyber Threat / Artificial Intelligence",
+        "tipo_estafa": "Phishing",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Exploring the Realm of Malicious Generative AI: A New Digital Security Challenge - Recently, the cybersecurity landscape has been confronted with a daunting new reality – the rise of malicious Generative AI, like FraudGPT and WormGPT. These rogue creations, lurking in the dark corners of the internet, pose a distinctive threat to the world of digital security. In this article, we will look at the nature of Generative AI fraud, analyze the messaging surrounding these creations, and evaluate their potential impact on cybersecurity. While it's crucial to maintain a watchful eye, it's equally important to avoid widespread panic, as the situation, though disconcerting, is not yet a cause for alarm. Interested in how your organization can protect against generative AI attacks with an advanced email security solution?  Get an IRONSCALES demo .   Meet FraudGPT and WormGPT  FraudGPT  represents a subscription-based malicious Generative AI that harnesses sophisticated machine learning algorithms to generate deceptive content. In stark contrast to ethical AI mode...",
+        "url": "https://thehackernews.com/2023/10/exploring-realm-of-malicious-generative.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "May 04, 2026\nMobile Security / Financial Crime",
+        "tipo_estafa": "Inversiones",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M - A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses.  The crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal Bureau of Investigation (FBI) and the Chinese Ministry of Public Security. Among those arrested are individuals from Burma and Indonesia, who were apprehended by authorities from Dubai and Thailand.  Thet Min Nyi, 27, Wiliang Awang, 23, Andreas Chandra, 29, Lisa Mariam, 29, and two fugitive co-conspirators have been charged with federal fraud and money laundering charges in the U.S.  \"Fraudsters who target Americans from overseas cannot operate with impunity, no matter where in the world they reside,\" Assistant Attorney General A. Tysen Duva of the Justice Department's (DoJ) Crimi...",
+        "url": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Jun 04, 2026\nCryptocurrency / Law Enforcement",
+        "tipo_estafa": "Inversiones",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets - The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans.   The \"Disruption Week\" operation began May 18, 2026, leading to the takedown of millions of social media, email, and internet access accounts used by transnational cybercrime groups in Southeast Asia to defraud victims. Private sector entities voluntarily froze over $3.8 million in cryptocurrency involved in the laundering of funds stolen from Americans.   \"Cyber-enabled and crypto investment fraud is devastating Main Street Americans, wiping out life savings and preying on some of our most vulnerable citizens,\" said  U.S. Attorney Jeanine Ferris Pirro for the District of Columbia.   The efforts are part of an ongoing U.S. government initiative called Scam Center Strike Force, which aims to dismantle transnational criminal organizations ru...",
+        "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Jul 08, 2025\nFinancial Scams / Online Security",
+        "tipo_estafa": "Inversiones",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "BaitTrap: Over 17,000 Fake News Websites Caught Fueling Investment Fraud Globally - A newly released report  by cybersecurity firm CTM360 reveals a large-scale scam operation utilizing fake news websites—known as Baiting News Sites (BNS)—to deceive users into online investment fraud across 50 countries.  These BNS pages are made to look like real news outlets: CNN, BBC, CNBC, or regional media. They publish fake stories that feature public figures, central banks, or financial brands, all claiming to back new ways to earn passive income. The goal? Build trust quickly and steer readers toward professional-looking scam platforms like Trap10, Solara Vynex, or Eclipse Earn.  Scammers use sponsored ads on Google, Meta, and blog networks to push traffic to these sites. Ads often carry clickbait headlines—“You won’t believe what a prominent public figure just revealed”—paired with official photos or national flags to make them feel legit. Clicking the ad directs users to a fake article, which then redirects them to a fraudulent trading platform.  Many of these scams follow a...",
+        "url": "https://thehackernews.com/2025/07/baittrap-over-17000-fake-news-websites.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Dec 21, 2023\nOnline Banking / Malware",
+        "tipo_estafa": "Inversiones",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "New JavaScript Malware Targeted 50,000+ Users at Dozens of Banks Worldwide - A new piece of JavaScript malware has been observed attempting to steal users' online banking account credentials as part of a campaign that has targeted more than 40 financial institutions across the world.  The activity cluster, which employs JavaScript web injections, is estimated to have led to at least 50,000 infected user sessions spanning North America, South America, Europe, and Japan.  IBM Security Trusteer said it detected the campaign in March 2023.  \"Threat actors' intention with the web injection module is likely to compromise popular banking applications and, once the malware is installed, intercept the users' credentials in order to then access and likely monetize their banking information,\" security researcher Tal Langus  said .  Attack chains are characterized by the use of scripts loaded from the threat actor-controlled server (\"jscdnpack[.]com\"), specifically targeting a page structure that's common to several banks. It's susp...",
+        "url": "https://thehackernews.com/2023/12/new-javascript-malware-targeted-50000.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Sep 23, 2025\nFinancial Crime / Cryptocurrency",
+        "tipo_estafa": "Inversiones",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Eurojust Arrests 5 in €100M Cryptocurrency Investment Fraud Spanning 23 Countries - Law enforcement authorities in Europe have arrested five suspects in connection with an \"elaborate\" online investment fraud scheme that stole more than €100 million ($118 million) from over 100 victims in France, Germany, Italy, and Spain.  According to Eurojust , the coordinated action saw searches in five places across Spain and Portugal, as well as in Italy, Romania and Bulgaria. Bank accounts and other financial assets associated with the cybercrime ring were frozen.  The main perpetrator behind the operation has been accused of large-scale fraud and money laundering by running an online investment platform for several years, tricking unsuspecting individuals into parting with their funds by promising them high returns on investments in various cryptocurrencies.  Once the deposits were made, the funds were transferred to bank accounts in Lithuania to launder them. Victims who attempted to withdraw their assets from the platform were asked to pay additional fees, after wh...",
+        "url": "https://thehackernews.com/2025/09/eurojust-arrests-5-in-100m.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Oct 25, 2024\nArtificial Intelligence / Identity Security",
+        "tipo_estafa": "Suplantación",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Eliminating AI Deepfake Threats: Is Your Identity Security AI-Proof? - Artificial Intelligence (AI) has rapidly evolved from a futuristic concept to a potent weapon in the hands of bad actors. Today, AI-based attacks are not just theoretical threats—they're happening across industries and outpacing traditional defense mechanisms.   The solution, however, is not futuristic. It turns out a properly designed identity security platform is able to deliver defenses against AI impersonation fraud. Read more about how a secure-by-design identity platform can eliminate AI deepfake fraud and serve as a critical component in this new era of cyber defense.   The Growing Threat of AI Impersonation Fraud  Recent incidents highlight the alarming potential of AI-powered fraud:   A staggering $25 million was fraudulently transferred  during a video call where deepfakes impersonated multiple executives.  KnowBe4, a cybersecurity leader, was duped by deepfakes  during hiring interviews, allowing a North Korean attacker to be onboarded to the organization.  CEO of ...",
+        "url": "https://thehackernews.com/2024/10/eliminating-ai-deepfake-threats-is-your.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "May 13, 2025\nAI Security / Zero Trust",
+        "tipo_estafa": "Suplantación",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Deepfake Defense in the Age of AI - The cybersecurity landscape has been dramatically reshaped by the advent of generative AI. Attackers now leverage large language models (LLMs) to impersonate trusted individuals and automate these social engineering tactics at scale.   Let’s review the status of these rising attacks, what’s fueling them, and how to actually prevent, not detect, them.   The Most Powerful Person on the Call Might Not Be Real  Recent threat intelligence reports highlight the growing sophistication and prevalence of AI-driven attacks:   Voice Phishing Surge:  According to CrowdStrike's 2025 Global Threat Report , there was a 442% increase in voice phishing (vishing) attacks between the first and second halves of 2024, driven by AI-generated phishing and impersonation tactics.  Social Engineering Prevalence:  Verizon's 2025 Data Breach Investigations Report  indicates that social engineering remains a top pattern in breaches, with phishing and pretexting accounting for a significant portion of inc...",
+        "url": "https://thehackernews.com/2025/05/deepfake-defense-in-age-of-ai.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Jul 16, 2025\nAI Security / Fraud Detection",
+        "tipo_estafa": "Suplantación",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "Deepfakes. Fake Recruiters. Cloned CFOs — Learn How to Stop AI-Driven Attacks in Real Time - Social engineering attacks have entered a new era—and they’re coming fast, smart, and deeply personalized.  It’s no longer just suspicious emails in your spam folder. Today’s attackers use generative AI, stolen branding assets, and deepfake tools to mimic your executives, hijack your social channels, and create convincing fakes of your website, emails, and even voice. They don’t just spoof— they impersonate.  Modern attackers aren’t relying on chance. They’re running long-term, multi-channel campaigns across email, LinkedIn, SMS, and even support portals—targeting your employees, customers, and partners.  Whether it’s a fake recruiter reaching out on LinkedIn, a lookalike login page sent via text, or a cloned CFO demanding a wire transfer, the tactics are faster, more adaptive, and increasingly automated using AI.  The result? Even trained users are falling for sophisticated fakes—because they’re not just phishing links anymore. They’re operations.  This Webinar Shows You How to Fight...",
+        "url": "https://thehackernews.com/2025/07/deepfakes-fake-recruiters-cloned-cfos.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Aug 12, 2024\nAI in Cybersecurity / Fraud Prevention",
+        "tipo_estafa": "Suplantación",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "How Phishing Attacks Adapt Quickly to Capitalize on Current Events - In 2023, no fewer than 94 percent of businesses were impacted by phishing attacks, a 40 percent increase compared to the previous year, according to research from Egress .  What's behind the surge in phishing? One popular answer is AI – particularly generative AI, which has made it trivially easier for threat actors to craft content that they can use in phishing campaigns, like malicious emails and, in more sophisticated cases, deepfake videos . In addition, AI can help write the malware  that threat actors often plant on their victims' computers and servers as part of phishing campaigns.  Phishing as a Service , or PhaaS, is another development sometimes cited  to explain why phishing threats are at an all-time high. By allowing malicious parties to hire skilled attackers to carry out phishing campaigns for them, PhaaS makes it easy for anyone with a grudge – or a desire to exfiltrate some money from unsuspecting victims – to launch phishing attacks.  Phishing has become agil...",
+        "url": "https://thehackernews.com/2024/08/how-phishing-attacks-adapt-quickly-to.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "Feb 07, 2025\nArtificial Intelligence / Cybercrime",
+        "tipo_estafa": "Suplantación",
+        "fuente": "The Hacker News",
+        "usuario": "Autor de Artículo Web",
+        "texto": "AI-Powered Social Engineering: Reinvented Threats - The foundations for social engineering attacks – manipulating humans – might not have changed much over the years. It’s the vectors – how these techniques are deployed – that are evolving. And like most industries these days, AI is accelerating its evolution.   This article explores how these changes are impacting business, and how cybersecurity leaders can respond.  Impersonation attacks: using a trusted identity  Traditional forms of defense were already struggling to solve social engineering, the ‘cause of most data breaches’ according to Thomson Reuters. The next generation of AI-powered cyber attacks and threat actors can now launch these attacks with unprecedented speed, scale, and realism.   The old way: Silicone masks  By impersonating a French government minister, two fraudsters were able to extract over €55 million from multiple victims. During video calls, one would wear a silicone mask of Jean-Yves Le Drian. To add a layer of believability, they also sat in a rec...",
+        "url": "https://thehackernews.com/2025/02/ai-powered-social-engineering.html"
+    }
+]
