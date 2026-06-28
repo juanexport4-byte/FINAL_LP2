@@ -20,3 +20,35 @@ def contar_por_categoria(posts):
 # Conteos individuales por plataforma
 etiquetas_bsky, valores_bsky = contar_por_categoria(posts_bluesky)
 etiquetas_hn, valores_hn = contar_por_categoria(posts_hackernews)
+
+# Tabla combinada 
+todos_los_posts = posts_bluesky + posts_hackernews
+
+tabla = [
+    {
+        "fecha": post["fecha_extraccion"],
+        "estafa": post["tipo_estafa"],
+        "fuente": post["fuente"],
+        "url": post["url"]
+    }
+    for post in todos_los_posts
+]
+
+# Estructura final para el dashboard
+datos_dashboard = {
+    "bluesky": {
+        "etiquetas": etiquetas_bsky,
+        "valores": valores_bsky
+    },
+    "fuente2": {
+        "nombre": "Hacker News",
+        "etiquetas": etiquetas_hn,
+        "valores": valores_hn
+    },
+    "tabla": tabla
+}
+
+with open("datos.json", "w", encoding="utf-8") as f:
+    json.dump(datos_dashboard, f, ensure_ascii=False, indent=2)
+
+print("datos.json generado con", len(todos_los_posts), "posts en total")
