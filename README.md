@@ -1,4 +1,4 @@
-# El uso de LLMs en las estafas y desinformación 
+# El uso de LLMs en las estafas 
 
 ## Integrantes del Grupo
 * **20241372	Aguilar Farfán, Juan Fernando** - [@juanexport4-byte](https://github.com/juanexport4-byte)
