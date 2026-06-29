@@ -1,0 +1,50 @@
+{
+  "Criptomonedas": {
+    "total_posts": 50,
+    "total_sospechosos": 4,
+    "porcentaje_sospechosos": 8.0,
+    "señales_frecuentes": {
+      "Contenido con más de 3 años": 31,
+      "Título con lenguaje de alerta": 2,
+      "Sin URL externa (solo discusión HN)": 4
+    }
+  },
+  "Phishing": {
+    "total_posts": 50,
+    "total_sospechosos": 1,
+    "porcentaje_sospechosos": 2.0,
+    "señales_frecuentes": {
+      "Contenido con más de 3 años": 40,
+      "Sin URL externa (solo discusión HN)": 1,
+      "Título con lenguaje de alerta": 1
+    }
+  },
+  "Inversiones": {
+    "total_posts": 50,
+    "total_sospechosos": 8,
+    "porcentaje_sospechosos": 16.0,
+    "señales_frecuentes": {
+      "Contenido con más de 3 años": 34,
+      "Sin URL externa (solo discusión HN)": 13
+    }
+  },
+  "Sorteos falsos": {
+    "total_posts": 50,
+    "total_sospechosos": 38,
+    "porcentaje_sospechosos": 76.0,
+    "señales_frecuentes": {
+      "Título con lenguaje de alerta": 39,
+      "Contenido con más de 3 años": 42,
+      "Sin URL externa (solo discusión HN)": 12
+    }
+  },
+  "Suplantación": {
+    "total_posts": 42,
+    "total_sospechosos": 9,
+    "porcentaje_sospechosos": 21.4,
+    "señales_frecuentes": {
+      "Contenido con más de 3 años": 19,
+      "Sin URL externa (solo discusión HN)": 14
+    }
+  }
+}

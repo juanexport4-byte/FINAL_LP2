@@ -267,9 +267,10 @@ function abrirModal(etiqueta) {
 
   const contenido = document.getElementById('modal-resumen')
 
-  // Si es Bluesky y tiene análisis para esta categoría
-  if (plataformaActual === 'bluesky' && datos.bluesky.analisis && datos.bluesky.analisis[etiqueta]) {
-    const a = datos.bluesky.analisis[etiqueta]
+  // Si la plataforma tiene análisis para esta categoría
+  const fuenteActual = datos[plataformaActual]
+  if (fuenteActual.analisis && fuenteActual.analisis[etiqueta]) {
+    const a = fuenteActual.analisis[etiqueta]
 
     // Ordenar señales de mayor a menor
     const señalesOrdenadas = Object.entries(a.señales_frecuentes)
