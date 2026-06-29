@@ -186,3 +186,91 @@ function descargarCSV() {
   a.click()
   URL.revokeObjectURL(url)
 }
+
+// ── Gráfico por plataforma ────────────────────
+function construirGraficoPlatforma() {
+  const d   = datos[plataformaActual]
+  const ctx = document.getElementById('grafico-plataforma').getContext('2d')
+  if (graficoPlatforma) graficoPlatforma.destroy()
+
+  const esHN = plataformaActual === 'fuente2'
+  const color  = esHN ? 'rgba(239,184,200,0.75)' : 'rgba(208,188,255,0.75)'
+  const border = esHN ? '#efb8c8' : '#d0bcff'
+
+  graficoPlatforma = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: d.etiquetas,
+      datasets: [{
+        label: d.nombre || 'Bluesky',
+        data: d.valores,
+        backgroundColor: color,
+        borderColor: border,
+        borderWidth: 1,
+        borderRadius: 10,
+        borderSkipped: false
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, grid: { color: 'rgba(73,69,79,0.3)' } },
+        x: { grid: { display: false } }
+      },
+      ...animacionModerna,
+      onClick: (evento, elementos) => {
+        if (elementos.length > 0) {
+          abrirModal(d.etiquetas[elementos[0].index], d.valores[elementos[0].index])
+        }
+      }
+    }
+  })
+}
+
+// ── Navegación ────────────────────────────────
+function cambiarPlataforma(plataforma) {
+  plataformaActual = plataforma
+  const d      = datos[plataforma]
+  const nombre = d.nombre || (plataforma === 'bluesky' ? 'Bluesky' : plataforma)
+
+  document.getElementById('nombre-plataforma').textContent = nombre
+  document.getElementById('vista-inicio').style.display    = 'none'
+  document.getElementById('vista-plataforma').style.display = 'block'
+
+  document.querySelectorAll('.btn-plataforma').forEach(b => b.classList.remove('activo'))
+  event.target.classList.add('activo')
+
+  construirGraficoPlatforma()
+}
+
+function volverInicio() {
+  document.getElementById('vista-plataforma').style.display = 'none'
+  document.getElementById('vista-inicio').style.display     = 'block'
+  document.querySelectorAll('.btn-plataforma').forEach(b => b.classList.remove('activo'))
+
+
+  // Reiniciar typewriter + animaciones de entrada
+  const span = document.getElementById('texto-titulo')
+  if (span) typewriter(TITULO, span, 55)
+  activarAnimaciones()
+
+  // Destruir y recrear el gráfico general para que las barras
+  // vuelvan a animarse cuando #seccion-grafico aparece (~2.8s)
+  if (miGrafico) { miGrafico.destroy(); miGrafico = null }
+  setTimeout(construirGraficoGeneral, 2900)
+}
+
+// ── Modal ─────────────────────────────────────
+function abrirModal(etiqueta, cantidad) {
+  const nombre = datos[plataformaActual].nombre || plataformaActual
+  document.getElementById('modal-titulo').textContent    = etiqueta
+  document.getElementById('modal-plataforma').textContent = nombre.toUpperCase()
+  document.getElementById('modal-resumen').textContent   =
+    `Se detectaron ${cantidad} posts relacionados con "${etiqueta}" en ${nombre}.`
+  document.getElementById('modal-overlay').style.display = 'flex'
+}
+
+function cerrarModal() {
+  document.getElementById('modal-overlay').style.display = 'none'
+}
