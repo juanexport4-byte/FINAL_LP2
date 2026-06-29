@@ -2071,57 +2071,12 @@
     },
     {
         "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2025-08-20T15:38:29Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "josephjrobison",
-        "texto": "AI Drives Rise in CEO Impersonator Scams",
-        "url": "https://www.wsj.com/articles/ai-drives-rise-in-ceo-impersonator-scams-2bd675c4"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
         "fecha_publicacion": "2023-05-17T23:59:42Z",
         "tipo_estafa": "Suplantación",
         "fuente": "Hacker News",
         "usuario": "paulpauper",
         "texto": "Elon Musk Impersonator Scams on Social Media People Fell For",
         "url": "https://www.forbes.com/sites/mattnovak/2023/01/31/25-elon-musk-impersonator-scams-on-social-media-people-actually-fell-for/"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2023-02-06T18:55:18Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "phprecovery",
-        "texto": "Ask HN: How best to take down China-based WFH scam impersonating businesses?",
-        "url": "https://news.ycombinator.com/item?id=34682245"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2023-06-22T10:25:23Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "amaury",
-        "texto": "Facebook Hustles:The Hidden Mechanics of a Scam Impersonating Media and Creators",
-        "url": "https://checkfirst.network/facebook-hustles-the-hidden-mechanics-of-a-scam-machinery-impersonating-news-organisations-and-creators/"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2025-08-19T00:30:37Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "fortran77",
-        "texto": "AI Drives Rise in CEO Impersonator Scams",
-        "url": "https://www.wsj.com/articles/ai-drives-rise-in-ceo-impersonator-scams-2bd675c4"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2018-02-01T02:01:41Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "sat_nam",
-        "texto": "Scammers Impersonate Cryptocurrency Industry Figures on Twitter to Steal Tokens",
-        "url": "https://research.satnam.co/2018/01/30/scammers-impersonating-cryptocurrency-industry-figures-in-effort-to-steal-tokens/"
     },
     {
         "fecha_extraccion": "2026-06-28",
@@ -2152,15 +2107,6 @@
     },
     {
         "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2026-01-29T13:35:12Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "speckx",
-        "texto": "Hiring in an era of fake candidates, real scams and AI slop",
-        "url": "https://themarkup.org/hello-world/2026/01/24/we-posted-a-job-then-came-the-ai-slop-impersonator-and-recruiter-scam"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
         "fecha_publicacion": "2022-03-05T10:25:59Z",
         "tipo_estafa": "Suplantación",
         "fuente": "Hacker News",
@@ -2176,24 +2122,6 @@
         "usuario": "jenthoven",
         "texto": "Someone is impersonating us in a recruiting scam",
         "url": "https://www.kapwing.com/blog/is-this-a-recruiting-scam-some-signs/"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2020-11-01T16:44:25Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "ilamont",
-        "texto": "Dissecting an online scam: the literary scout impersonator",
-        "url": "https://accrispin.blogspot.com/2020/10/disssecting-scam-literary-scout.html"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2023-08-29T04:22:09Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "sylvainkalache",
-        "texto": "Fake Call Centre Busted: Scammers Made Rs 40 Lakh a Day by Cheating Americans",
-        "url": "https://www.the420.in/impersonating-us-authorities-noida-fake-call-centre-scam/"
     },
     {
         "fecha_extraccion": "2026-06-28",
@@ -2215,24 +2143,6 @@
     },
     {
         "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2021-05-11T17:06:48Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "paulpauper",
-        "texto": "Scammers make $100k in a single night impersonating Musk on Twitter",
-        "url": "https://www.bleepingcomputer.com/news/security/twitter-scammers-impersonate-snl-in-elon-musk-cryptocurrency-scams/"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
-        "fecha_publicacion": "2017-11-30T09:49:09Z",
-        "tipo_estafa": "Suplantación",
-        "fuente": "Hacker News",
-        "usuario": "metachris",
-        "texto": "Ask HN: How to deal with a domain impersonating my company, stealing accounts",
-        "url": "https://news.ycombinator.com/item?id=15814601"
-    },
-    {
-        "fecha_extraccion": "2026-06-28",
         "fecha_publicacion": "2024-11-17T14:47:29Z",
         "tipo_estafa": "Suplantación",
         "fuente": "Hacker News",
@@ -2248,5 +2158,23 @@
         "usuario": "phprecovery",
         "texto": "Ask HN: How best to take down large (Tether) WFH fraud impersonating businesses?",
         "url": "https://news.ycombinator.com/item?id=34668844"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "2026-04-27T14:28:54Z",
+        "tipo_estafa": "Suplantación",
+        "fuente": "Hacker News",
+        "usuario": "arionhardison",
+        "texto": "Ask HN: My project made news as a \"Scam\", what can I do?",
+        "url": "https://www.kitv.com/video/news/state-warns-of-cybersecurity-phishing-threat-from-website-impersonating-state-government/video_c6f491c6-1fb9-58b9-9e21-055b727ec380.html"
+    },
+    {
+        "fecha_extraccion": "2026-06-28",
+        "fecha_publicacion": "2017-08-05T20:33:43Z",
+        "tipo_estafa": "Suplantación",
+        "fuente": "Hacker News",
+        "usuario": "samclemens",
+        "texto": "They were partners in fighting crime. The only problem: Neither was a cop",
+        "url": "https://magazine.atavist.com/not-fuzz-police-impersonator-santa-monica-steve-farzam"
     }
 ]

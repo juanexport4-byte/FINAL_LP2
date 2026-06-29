@@ -3,6 +3,7 @@ from datetime import datetime
 import json
 import time
 
+
 def buscar_hackernews(categoria, termino, limite=10):
     print(f"Buscando en Hacker News: {categoria} ('{termino}')...")
 

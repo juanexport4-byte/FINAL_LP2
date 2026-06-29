@@ -10,7 +10,7 @@ def conectar(usuario, app_password):
     return client
 
 
-def buscar_categoria(client, categoria, termino, limite=5):
+def buscar_categoria(client, categoria, termino, limite=10):
     print(f"Buscando: {categoria} ({termino})...")
 
     response = client.app.bsky.feed.search_posts(
@@ -31,7 +31,7 @@ def buscar_categoria(client, categoria, termino, limite=5):
             "fuente": "Bluesky",
             "usuario": handle,
             "texto": post.record.text,
-            "url": url_post
+            "url": url_post,
         })
 
     return resultados
@@ -41,18 +41,44 @@ if __name__ == "__main__":
     client = conectar("juan4-04.bsky.social", "ry7q-2ym3-pbz6-yehy")
 
     categorias = {
-        "Criptomonedas": "guaranteed returns crypto",
-        "Phishing": "your account has been suspended click",
-        "Inversiones": "DM me to start investing today",
-        "Sorteos falsos": "you have been selected winner claim now",
-        "Suplantación": "official support team verify account"
+    "Criptomonedas": [
+        "send 1 BTC get 2 BTC",
+        "double your bitcoin",
+        "free usdt giveaway",
+        "guaranteed returns crypto"
+    ],
+    "Phishing": [
+        "verify your account click",
+        "your account suspended link",
+        "confirm your identity click here",
+        "unusual activity login verify"
+    ],
+    "Inversiones": [
+        "DM me for investment",
+        "passive income 100% profit",
+        "daily profit trading signal",
+        "guaranteed returns investment"
+    ],
+    "Sorteos falsos": [
+        "you have been selected winner",
+        "claim your prize now",
+        "congratulations winner claim",
+        "free giveaway winner selected"
+    ],
+    "Suplantación": [
+        "official support team verify account",
+        "we are official team DM",
+        "impersonation deepfake AI",
+        "verify account official support"
+    ]
     }
 
     todos_los_datos = []
 
-    for categoria, termino in categorias.items():
-        resultados = buscar_categoria(client, categoria, termino, limite=10)
-        todos_los_datos.extend(resultados)
+    for categoria, terminos in categorias.items():
+        for termino in terminos:
+            resultados = buscar_categoria(client, categoria, termino, limite=100)
+            todos_los_datos.extend(resultados)
 
     print(f"\nTotal de posts extraídos: {len(todos_los_datos)}")
 
@@ -61,3 +87,10 @@ if __name__ == "__main__":
         json.dump(todos_los_datos, f, ensure_ascii=False, indent=4)
 
     print("Guardado en datos_bluesky.json")
+
+    with open("datos_bluesky.json", "r", encoding="utf-8") as f:
+        datos = json.load(f)
+
+    usuarios_unicos = set(post["usuario"] for post in datos)
+    print(f"Posts totales: {len(datos)}")
+    print(f"Usuarios únicos: {len(usuarios_unicos)}")
