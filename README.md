@@ -158,12 +158,11 @@ Como no hay datos de perfil disponibles, el análisis se basa en el contenido de
 - Solo se extrae información **públicamente visible** — no se accede a datos privados ni mensajes directos
 - Ambas fuentes fueron verificadas en sus `robots.txt` antes del uso
 - Se respetan límites de peticiones con pausas entre requests (`time.sleep`)
-
-## Informe
-
-📎 [Ver informe completo](https://docs.google.com/document/d/1OzFwKaldOoGCvyCMHulLMKlCoXUIpwLp/edit?usp=sharing&ouid=106838032057067217145&rtpof=true&sd=true)
-
 - Los datos se usan exclusivamente con fines de investigación académica
 - Hacker News indica `ai-train=no` en su robots.txt — el contenido no se usa para entrenar modelos
 
 ---
+
+## Informe
+
+📎 [Ver informe completo](https://docs.google.com/document/d/1OzFwKaldOoGCvyCMHulLMKlCoXUIpwLp/edit?usp=sharing&ouid=106838032057067217145&rtpof=true&sd=true)
