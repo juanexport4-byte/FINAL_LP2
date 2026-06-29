@@ -16,4 +16,35 @@
     <h1><span id="texto-titulo"></span><span class="cursor-titilar" id="cursor"></span></h1>
     <p>Análisis de comportamiento inauténtico en redes sociales</p>
   </div>
+  
+  <!-- VISTA GENERAL -->
+  <div id="vista-inicio">
+
+    <div class="contenedor-botones">
+      <button class="btn-plataforma" onclick="cambiarPlataforma('bluesky')">Bluesky</button>
+      <button class="btn-plataforma" onclick="cambiarPlataforma('fuente2')">Hacker News</button>
+    </div>
+
+    <div id="seccion-grafico">
+      <h2>Top estafas detectadas — todas las plataformas</h2>
+      <canvas id="mi-grafico"></canvas>
+    </div>
+
+    <div id="seccion-tabla">
+      <h2>Datos recolectados</h2>
+      <table id="tabla-datos">
+        <thead>
+          <tr>
+            <th>Fecha extracción</th>
+            <th>Tipo de estafa</th>
+            <th>Fuente</th>
+            <th>URL</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpo-tabla"></tbody>
+      </table>
+    </div>
+
+  </div>
+
 
